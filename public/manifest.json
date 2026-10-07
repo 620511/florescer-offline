@@ -1,0 +1,25 @@
+{
+  "name": "Florescer — Rotina de Saúde",
+  "short_name": "Florescer",
+  "description": "Medicações diárias e consultas médicas, funciona offline",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FDF6F5",
+  "theme_color": "#C2467D",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

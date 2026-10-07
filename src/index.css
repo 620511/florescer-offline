@@ -1,0 +1,45 @@
+:root {
+  --bg: #FDF6F5;
+  --surface: #FFFFFF;
+  --surface-soft: #FBEEF2;
+  --pink: #E8A5BE;
+  --pink-deep: #C2467D;
+  --pink-pale: #F6DEE7;
+  --lilac: #E4D8F0;
+  --lilac-deep: #8C6CA8;
+  --gold: #D9A441;
+  --ink: #4A2C3D;
+  --ink-soft: #8A6E7A;
+  --border: #F0DCE3;
+  --danger: #C2564F;
+  --shadow: 0 4px 20px rgba(194, 70, 125, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  background-image: radial-gradient(circle at 15% 8%, var(--pink-pale) 0%, transparent 35%),
+    radial-gradient(circle at 90% 92%, var(--lilac) 0%, transparent 30%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: "Quicksand", -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--pink-pale);
+}
